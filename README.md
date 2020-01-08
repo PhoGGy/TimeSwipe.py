@@ -29,3 +29,7 @@ pydoc3 timeswipe
 ```
 sudo python3 test.py
 ```
+
+## Cross-Compilation
+maybe not possible currently?
+https://bugs.python.org/issue28266
