@@ -5,6 +5,9 @@ SET(CMAKE_CXX_FLAGS "-fpermissive -lpthread -O3 -std=gnu++17")
 
 project(timeswipe_py DESCRIPTION "timeswipe driver python binding")
 
+SET(CMAKE_C_COMPILER aarch64-buildroot-linux-gnu-gcc )
+SET(CMAKE_CXX_COMPILER aarch64-buildroot-linux-gnu-g++ )
+
 SET(SRC src/timeswipe_py.cpp)
 
 add_library(timeswipe_py SHARED ${SRC})
